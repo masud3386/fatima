@@ -13,6 +13,7 @@ public class Testfacebook {
 	WebDriver driver;
 	@Test
 	public void login() throws Exception {
+		// I an checking if pull request was confirm
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
